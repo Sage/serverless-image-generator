@@ -287,34 +287,6 @@ module.exports.availability = (event, context, callback) => {
                 })
                 .text(function(d) { return d.text.replace('#val', d.value); });
 
-            // field.append("path")
-            //     .attr("class", "arc-body");
-            //
-
-            //
-            // field.append("text")
-            //     .attr("dy", ".25em")
-            //     .attr("dx", ".25em")
-            //     .style("text-anchor", "start")
-            //     .append("textPath")
-            //     .attr("startOffset", "26%")
-            //     .attr("style", "font-size: 10px")
-            //     .attr("class", "arc-text")
-            //     .attr("xlink:href", function(d, i) {
-            //         return "#arc-center-" + i;
-            //     });
-
-            // field.each(function(d) {
-            //         this._value = d.value;
-            //     })
-            //     .data(fields)
-            //     .each(function(d) {
-            //         d.previousValue = this._value;
-            //     })
-            //     .transition()
-            //     .ease("elastic")
-            //     .duration(0)
-            //     .each(fieldTransition);
 
             return svg;
         };
