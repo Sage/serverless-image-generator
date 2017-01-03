@@ -23,7 +23,12 @@ serverless-image-generator is based on the fantastic [serverless.com](http://www
   npm install
   ```
 
-5. **Deploy service**
+5. **Deploy service to dev stage**
   ```bash
   serverless deploy
+  ```
+
+6. **Deploy to production stage**
+  ```bash
+  serverless deploy -s production
   ```

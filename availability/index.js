@@ -278,7 +278,7 @@ module.exports.availability = (event, context, callback) => {
                 .attr("d", function(d) { return arc(d) });
 
             field.append("text")
-                .attr("dy", "-0.1em")
+                .attr("dy", "-0.15em")
                 .attr("dx", ".25em")
               .append("textPath")
                 .style("font-size", "10px")
